@@ -17,3 +17,11 @@ export const fetchPostsApi = async () => {
 
     return await response.json()
 }
+
+export const deletePostApi = async (id) => {
+    const response =await fetch(`https://posts-372b0-default-rtdb.europe-west1.firebasedatabase.app/posts/${id}.json`,{
+        method: 'DELETE',
+        headers: {'Content-Type': 'application/json'}
+    })
+    return await response.json()
+}
