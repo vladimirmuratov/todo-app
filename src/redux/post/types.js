@@ -1,0 +1,6 @@
+export const CREATEPOST = 'CREATEPOST'
+export const FETCHPOSTS = 'FETCHPOSTS'
+export const ERROR = 'ERROR'
+export const CLEANERROR = 'CLEANERROR'
+export const SHOWLOADER = 'SHOWLOADER'
+export const HIDELOADER = 'HIDELOADER'
